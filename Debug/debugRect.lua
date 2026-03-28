@@ -1,9 +1,13 @@
 -- Keep Track of variables
 
--- Keep track of variables
--- Example usage:
---[[
+--[[ Example usage:
 
+Set the rect position
+[love.load()]
+Debug:load(0, 0)
+
+Add variables to keep track of
+[love.draw()]
 local mx, my = love.mouse.getPosition()
 Debug:draw({
 	{"Mouse X", mx},
